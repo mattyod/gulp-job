@@ -30,7 +30,5 @@
   "maxdepth"      : 3,
   "maxcomplexity" : 7,
   "expr"          : true,
-
   "boss"          : true
-
 }
