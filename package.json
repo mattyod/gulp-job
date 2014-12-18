@@ -1,0 +1,37 @@
+{
+  "name": "gulp-job",
+  "version": "0.1.0",
+  "description": "Wrap compiled Gulp templates and bind them to an object",
+  "main": "index.js",
+  "scripts": {
+    "hooks": "chmod +x hooks/*; cd .git/hooks && ln -sf ../../hooks/* .",
+    "lint": "./node_modules/jshint/bin/jshint ./",
+    "jscs": "./node_modules/jscs/bin/jscs ./",
+    "unit": "./node_modules/mocha/bin/mocha test",
+    "test": "npm run lint && npm run jscs && npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattyod/gulp-job.git"
+  },
+  "keywords": [ "Jade" ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattyod/gulp-job/issues"
+  },
+  "homepage": "https://github.com/mattyod/gulp-job",
+  "dependencies": {
+    "underscore": "1.7.0",
+    "gulp-util": "3.0.1",
+    "through2": "0.6.3"
+  },
+  "devDependencies": {
+    "jshint": "2.5.10",
+    "jscs": "1.8.1",
+    "mocha": "2.0.1",
+    "chai": "1.10.0",
+    "sinon": "1.12.2",
+    "sinon-chai": "2.6.0",
+    "vinyl": "0.4.6"
+  }
+}
