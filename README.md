@@ -10,7 +10,7 @@ npm install gulp-job
 
 ## Use case
 
-Gulp job will wrap a file in a seld invoking function that in turn binds the 'file' to a namespace on an object. The following describes the specific use case that lead to the creation of _gulp-job_.
+Gulp job will wrap a file in a self invoking function that in turn binds the 'file' to a namespace on an object. The following describes the specific use case that lead to the creation of _gulp-job_.
 
 Lets say you have a Jade template, something like:
 
