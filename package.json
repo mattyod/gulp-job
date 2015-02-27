@@ -21,15 +21,15 @@
   },
   "homepage": "https://github.com/mattyod/gulp-job",
   "dependencies": {
-    "underscore": "1.7.0",
-    "gulp-util": "3.0.3",
+    "underscore": "1.8.2",
+    "gulp-util": "3.0.4",
     "through2": "0.6.3"
   },
   "devDependencies": {
-    "jshint": "2.6.0",
+    "jshint": "2.6.1",
     "jscs": "1.11.3",
     "mocha": "2.1.0",
-    "chai": "2.0.0",
+    "chai": "2.1.0",
     "sinon": "1.12.2",
     "sinon-chai": "2.7.0",
     "vinyl": "0.4.6"
